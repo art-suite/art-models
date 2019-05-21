@@ -1,0 +1,3 @@
+import &StandardImport
+suite: ->
+  test 'Models' -> assert.eq 1, 1
