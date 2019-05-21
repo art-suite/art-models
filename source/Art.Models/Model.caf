@@ -1,0 +1,3 @@
+import &StandardImport
+
+class Model extends &SubscribableMixin &EpochedUpdatesMixin BaseClass
