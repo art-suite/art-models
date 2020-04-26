@@ -1,3 +1,9 @@
 import &StandardImport
 
 (baseClass) -> class SubscribableMixin extends baseClass
+
+  constructor: ->
+    super
+    @_subscriptions = {}
+
+  @getter :subscriptions
